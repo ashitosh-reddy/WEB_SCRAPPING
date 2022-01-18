@@ -77,8 +77,7 @@ const PORT=9200
 
 
 const Mongo_URL = process.env.Mongo_URL;
-// // mongodb+srv://ashi:<password>@cluster0.otf4h.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
-// mongodb+srv://ashi:ashi1234@cluster0.otf4h.mongodb.net
+
 
 async function createConnection(){
     const client = new MongoClient(Mongo_URL);
